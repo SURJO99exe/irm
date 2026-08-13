@@ -4,6 +4,13 @@
 
 > A premium Windows PowerShell toolkit demo with rich visuals, clear docs, and a polished GitHub presentation.
 
+<div align="center">
+  <img src="https://img.shields.io/badge/Windows-10%2F11-0078D6?style=for-the-badge&logo=microsoft&logoColor=white" alt="Windows 10/11" />
+  <img src="https://img.shields.io/badge/PowerShell-7+-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell 7+" />
+  <img src="https://img.shields.io/badge/Automation-Ready-22C55E?style=for-the-badge" alt="Automation ready" />
+  <img src="https://img.shields.io/badge/Docs-Polished-F59E0B?style=for-the-badge" alt="Docs polished" />
+</div>
+
 ---
 
 ## ✨ Project Overview
@@ -97,11 +104,12 @@ cd irm
 
 ## ▶️ Usage
 
+> [!IMPORTANT]
 > Main command:
-
-```powershell
-irm https://get.activated.win | iex
-```
+>
+> ```powershell
+> irm https://get.activated.win | iex
+> ```
 
 ### Recommended execution sequence
 
