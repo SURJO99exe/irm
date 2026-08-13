@@ -122,9 +122,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\run.ps1
 
 | Project Overview | Visual Playground | Execution Flow |
 |---|---|---|
-| ![Windows activation preview](images/windows-activate-bg.svg) | ![Screenshot 2](https://via.placeholder.com/380x220.png?text=PowerShell+Preview) | ![Screenshot 3](https://via.placeholder.com/380x220.png?text=Execution+Flow) |
+| ![Windows activation preview](images/windows-activate-bg.svg) | ![Windows activation promo](images/windows-activate-promo.svg) | ![Screenshot 3](https://via.placeholder.com/380x220.png?text=Execution+Flow) |
 
-> Replace the remaining placeholders with real UI or terminal screenshots once your scripts are implemented.
+> Replace the remaining placeholder with a real UI or terminal screenshot once your scripts are implemented.
 
 ---
 

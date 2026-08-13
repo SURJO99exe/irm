@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Windows activation promo</title>
+  <desc id="desc">A blue Windows desktop with text saying remove activate windows watermark and arrows pointing to the activation prompt.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f6ad5"/>
+      <stop offset="35%" stop-color="#0b449b"/>
+      <stop offset="100%" stop-color="#0a132f"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop offset="0%" stop-color="#c9ecff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5ec3ff" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0c5ec4"/>
+      <stop offset="100%" stop-color="#0a2a4c"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <marker id="arrowEnd" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#ff2d2d"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <g opacity="0.85">
+    <path d="M0 130 C260 80, 420 90, 620 180 L620 580 C400 545, 180 530, 0 560 Z" fill="#4ec2ff" fill-opacity="0.18"/>
+    <path d="M630 80 C900 120, 1100 120, 1350 60 L1350 610 C1080 630, 900 610, 630 570 Z" fill="#80d4ff" fill-opacity="0.10"/>
+    <path d="M700 180 C860 120, 1040 120, 1290 210 L1290 660 C1050 700, 860 690, 700 620 Z" fill="#0d5cc6" fill-opacity="0.32"/>
+  </g>
+
+  <g opacity="0.25">
+    <path d="M0 240 C210 200, 310 220, 430 260 L430 420 C270 450, 170 438, 0 350 Z" fill="#d2f0ff"/>
+    <path d="M460 190 C650 150, 800 190, 980 250 L980 440 C780 450, 620 420, 460 380 Z" fill="#d2f0ff"/>
+    <path d="M990 170 C1165 150, 1320 200, 1580 245 L1580 470 C1385 505, 1200 480, 990 430 Z" fill="#d2f0ff"/>
+  </g>
+
+  <g filter="url(#softGlow)" opacity="0.9">
+    <path d="M350 70 L570 70 L550 180 L330 180 Z" fill="#6ec5ff" fill-opacity="0.25"/>
+    <path d="M1180 140 L1430 140 L1430 350 L1150 350 Z" fill="#72d4ff" fill-opacity="0.15"/>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-weight="900" letter-spacing="0.5">
+    <rect x="90" y="120" width="500" height="110" rx="20" fill="#0d0d0d" fill-opacity="0.8"/>
+    <text x="120" y="194" font-size="78" fill="#f7d52b">REMOVE</text>
+
+    <text x="110" y="330" font-size="138" fill="#ffffff">ACTIVATE WINDOWS</text>
+
+    <rect x="210" y="370" width="1090" height="120" rx="20" fill="#0d0d0d" fill-opacity="0.82"/>
+    <text x="250" y="452" font-size="84" fill="#f2f4f6" font-weight="800" style="font-style: italic;">WATERMARK WINDOWS 11</text>
+  </g>
+
+  <g fill="none" stroke="#ff2d2d" stroke-width="18" stroke-linecap="round" marker-end="url(#arrowEnd)" opacity="0.95">
+    <path d="M 620 190 C 520 125, 450 120, 360 150"/>
+    <path d="M 1310 250 C 1422 200, 1470 195, 1535 245"/>
+    <path d="M 515 550 C 430 610, 390 650, 360 690"/>
+    <path d="M 1170 575 C 1260 650, 1335 690, 1395 730"/>
+  </g>
+
+  <g>
+    <rect x="620" y="590" width="610" height="200" rx="14" fill="#0d2d5d" fill-opacity="0.7" stroke="#ff4b4b" stroke-width="6"/>
+    <rect x="680" y="620" width="120" height="120" rx="10" fill="#f0f6ff" fill-opacity="0.25"/>
+    <path d="M720 684 L760 665 L760 730 L720 705 Z" fill="#ffffff" fill-opacity="0.9"/>
+    <text x="825" y="690" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="400" fill="#f4f9ff">Activate Windows</text>
+    <text x="826" y="731" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="400" fill="#edf7ff" opacity="0.9">Go to Settings to activate Windows.</text>
+  </g>
+
+  <g>
+    <rect x="0" y="820" width="1600" height="80" fill="#0f0f12" fill-opacity="0.6"/>
+    <g transform="translate(30,835)">
+      <rect x="0" y="0" width="54" height="54" rx="12" fill="#1a1c20"/>
+      <rect x="86" y="0" width="54" height="54" rx="12" fill="#1a1c20"/>
+      <rect x="172" y="0" width="54" height="54" rx="12" fill="#1a1c20"/>
+      <rect x="258" y="0" width="54" height="54" rx="12" fill="#1a1c20"/>
+      <rect x="344" y="0" width="54" height="54" rx="12" fill="#1a1c20"/>
+      <rect x="430" y="0" width="54" height="54" rx="12" fill="#1a1c20"/>
+      <rect x="516" y="0" width="54" height="54" rx="12" fill="#1a1c20"/>
+    </g>
+
+    <g transform="translate(1080,845)" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#edf7ff">
+      <text x="0" y="0">ENG</text>
+      <text x="110" y="0">IN</text>
+      <text x="220" y="0">14:35</text>
+      <text x="355" y="0">19-11-2022</text>
+      <rect x="576" y="-18" width="32" height="32" rx="4" fill="#dfefff" opacity="0.4"/>
+      <circle cx="635" cy="0" r="12" fill="#dfefff" opacity="0.5"/>
+    </g>
+  </g>
+</svg>
