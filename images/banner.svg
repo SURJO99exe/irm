@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">IRM PowerShell Toolkit Banner</title>
+  <desc id="desc">A premium blue and purple banner with the IRM PowerShell Toolkit title.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#071a38"/>
+      <stop offset="28%" stop-color="#142c5c"/>
+      <stop offset="60%" stop-color="#1c4d9b"/>
+      <stop offset="100%" stop-color="#2b1b5d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#3dd9ff"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop offset="0%" stop-color="#dff8ff" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="420" fill="url(#bg)"/>
+  <circle cx="1380" cy="80" r="220" fill="#35d0ff" opacity="0.18"/>
+  <circle cx="1240" cy="330" r="240" fill="#8b5cf6" opacity="0.18"/>
+
+  <g opacity="0.4">
+    <path d="M0 260 C250 140, 450 140, 620 240 L620 420 L0 420 Z" fill="#7dd3fc" fill-opacity="0.18"/>
+    <path d="M980 100 C1200 80, 1450 130, 1600 170 L1600 420 L980 420 Z" fill="#a78bfa" fill-opacity="0.16"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <rect x="70" y="85" width="480" height="250" rx="18" fill="url(#glass)" stroke="#9bdcff" stroke-opacity="0.7" stroke-width="2"/>
+    <path d="M122 150 L482 150" stroke="#dff8ff" stroke-opacity="0.32" stroke-width="2"/>
+    <path d="M110 205 L468 205" stroke="#dff8ff" stroke-opacity="0.22" stroke-width="2"/>
+    <rect x="135" y="235" width="120" height="60" rx="10" fill="#3dd9ff" opacity="0.8"/>
+    <rect x="270" y="235" width="140" height="60" rx="10" fill="#8b5cf6" opacity="0.8"/>
+  </g>
+
+  <g>
+    <text x="640" y="190" font-family="Segoe UI, Arial, sans-serif" font-size="74" font-weight="800" fill="#f6fbff">IRM</text>
+    <text x="640" y="268" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" fill="#dfeeff">PowerShell Toolkit</text>
+    <rect x="640" y="292" width="400" height="8" rx="4" fill="url(#accent)"/>
+    <text x="640" y="335" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="500" fill="#dfeeff" opacity="0.9">Automation • Security • Workflow</text>
+  </g>
+</svg>

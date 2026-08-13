@@ -1,5 +1,9 @@
 # 🚀 IRM PowerShell Toolkit
 
+<p align="center">
+  <img src="images/banner.svg" alt="IRM PowerShell Toolkit banner" width="100%" />
+</p>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Platform](https://img.shields.io/badge/Platform-Windows%20PowerShell-brightgreen.svg)](https://docs.microsoft.com/powershell) [![Status](https://img.shields.io/badge/Status-Production-ready-blueviolet.svg)](#) [![Contributions welcome](https://img.shields.io/badge/Contributions-Welcome-ff69b4.svg)](#)
 
 > A premium Windows PowerShell toolkit demo with rich visuals, clear docs, and a polished GitHub presentation.
